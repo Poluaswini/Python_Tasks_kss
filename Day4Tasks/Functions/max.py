@@ -1,0 +1,6 @@
+# Q:Write a program using the built-in max() function to find the largest number in a list.
+
+li=[1,2,3,4,5]
+def li_largest(li):
+    print("Largest number:" , max(li))
+li_largest(li)
