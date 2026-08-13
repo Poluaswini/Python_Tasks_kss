@@ -1,0 +1,3 @@
+student details 
+{'aswini': 90, 'sathu': 91, 'buddi': 90}Marks Greater than 50:
+3average90.33333333333333

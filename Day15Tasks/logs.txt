@@ -1,0 +1,7 @@
+INFO: Login successful
+ERROR: File not found
+INFO: User logged in
+ERROR: File not found
+ERROR: Database connection failed
+INFO: Logout
+ERROR: File not found

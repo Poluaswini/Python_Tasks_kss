@@ -1,0 +1,13 @@
+EXAM REPORT
+====================
+    Name  Marks Grade
+Student1     39     F
+Student2     24     F
+Student3     45     F
+Student4     58     D
+Student5     27     F
+
+Statistics
+Average: 38.6
+Highest: 58
+Lowest: 24
