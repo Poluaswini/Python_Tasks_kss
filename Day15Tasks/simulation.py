@@ -16,7 +16,6 @@ import numpy as np
 import pandas as pd
 
 
-# OOP - Student class
 class Student:
 
     def __init__(self, name, marks):
@@ -37,7 +36,6 @@ class Student:
 
 
 try:
-    # Generate random marks
     marks = []
 
     for i in range(5):
@@ -45,18 +43,15 @@ try:
 
     print("Random Marks:", marks)
 
-    # Convert to NumPy array
     marks_array = np.array(marks)
     print("NumPy Array:", marks_array)
 
-    # Create students
     students = []
 
     for i in range(5):
         student = Student("Student" + str(i + 1), marks_array[i])
         students.append(student)
 
-    # Store results
     names = []
     student_marks = []
     grades = []
@@ -66,7 +61,6 @@ try:
         student_marks.append(student.marks)
         grades.append(student.get_grade())
 
-    # Convert to Pandas DataFrame
     df = pd.DataFrame({
         "Name": names,
         "Marks": student_marks,
@@ -76,7 +70,6 @@ try:
     print("\nStudent Report:")
     print(df)
 
-    # Statistics using math module
     average = math.fsum(marks) / len(marks)
     highest = max(marks)
     lowest = min(marks)
@@ -86,7 +79,6 @@ try:
     print("Highest:", highest)
     print("Lowest:", lowest)
 
-    # Save report to file
     with open("exam_report.txt", "w") as file:
 
         file.write("EXAM REPORT\n")
