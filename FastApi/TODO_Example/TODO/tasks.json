@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "title": "Learn FastAPI",
+        "status": "not yet started"
+    },
+    {
+        "id": 2,
+        "title": "Learn Playwright",
+        "status": "InProgress"
+    },
+    {
+        "id": 3,
+        "title": "Learn API Testing",
+        "status": "inprogress"
+    },
+    {
+        "id": 4,
+        "title": "Tasks",
+        "status": "started"
+    },
+    {
+        "id": 5,
+        "title": "Tasks",
+        "status": "started"
+    }
+]
