@@ -4,17 +4,14 @@ import json
 
 app = FastAPI()
 
-
 # Data we receive from POST
 class Task(BaseModel):
     title: str
     status: str
 
-
 @app.get("/")
 def home():
     return {"message": "TODO API is working"}
-
 
 @app.get("/tasks")
 def get_tasks():
@@ -23,7 +20,6 @@ def get_tasks():
         tasks = json.load(file)
 
     return tasks
-
 
 # POST - Create a new task
 @app.post("/tasks")
